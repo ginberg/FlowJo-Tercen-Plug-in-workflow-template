@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "b6038da8b47af8ec6615de4a9809e13d",
   "isDeleted": false,
-  "rev": "4-410f6071f23e6a2080d65e189ccf99f7",
+  "rev": "19-73bac580394e8fac1d1f41ecc90bac29",
   "description": "Template (no data set) updated with FlowSOM v0.2.3 and FlowSOM MST shiny operator v0.1.6 ",
   "name": "FlowJo Tercen Plug-in workflow V5",
   "createdBy": "ger.inberg",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2021-11-26T11:00:08.920751Z"
+    "value": "2021-11-26T11:26:13.801220Z"
   },
   "urls": [
     {
@@ -160,55 +160,12 @@
     },
     {
       "kind": "Link",
-      "id": "b4219ee7-0c56-4625-98db-ce70e9428cf4",
+      "id": "43708356-b9af-4c3c-9170-1397f1b055b5",
       "inputId": "fbd4f18b-a7e5-490b-af92-9adf906100df-i-0",
-      "outputId": "ee082596-f6b8-46a0-844e-73122770d942-o-0"
+      "outputId": "95501017-2717-418d-88cd-d5c39887de71-o-0"
     }
   ],
   "steps": [
-    {
-      "kind": "TableStep",
-      "id": "ee082596-f6b8-46a0-844e-73122770d942",
-      "groupId": "",
-      "name": "main data set",
-      "inputs": [],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "ee082596-f6b8-46a0-844e-73122770d942-o-0",
-          "linkType": "relation",
-          "name": "table"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 98.88986206054688,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 513.5050000000001,
-          "y": 188.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "model": {
-        "kind": "TableStepModel",
-        "relation": {
-          "kind": "UnionRelation",
-          "id": "a3100cc1-67ff-4249-856b-80fd790fd8a3",
-          "relations": []
-        }
-      }
-    },
     {
       "kind": "DataStep",
       "id": "fbd4f18b-a7e5-490b-af92-9adf906100df",
@@ -390,7 +347,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 50107
         },
         "filters": {
           "kind": "Filters",
@@ -407,12 +364,12 @@
                   "stringValue": "20",
                   "factor": {
                     "kind": "Factor",
-                    "name": "ds3.sample",
+                    "name": "sample",
                     "type": "double"
                   }
                 }
               ],
-              "name": "ds3.sample"
+              "name": "sample"
             }
           ]
         },
@@ -478,13 +435,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5f6050a4-5a75-4995-adb3-33e8783abe08"
+        "id": "dd48a198-8ca5-47bf-96de-bc236acd2d9b"
       }
     },
     {
@@ -518,7 +475,7 @@
         "topLeft": {
           "kind": "Point",
           "x": 513.796875,
-          "y": 377.5
+          "y": 378.5
         }
       },
       "state": {
@@ -668,7 +625,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 50107
         },
         "filters": {
           "kind": "Filters",
@@ -782,13 +739,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "c5361517-129b-45d7-9623-5681431795b3"
+        "id": "abf4702b-961d-4e03-ae08-445642081c74"
       }
     },
     {
@@ -822,7 +779,7 @@
         "topLeft": {
           "kind": "Point",
           "x": 519.4920703124999,
-          "y": 456.5
+          "y": 454.5
         }
       },
       "state": {
@@ -999,7 +956,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1062,13 +1019,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "a8225baa-2975-4ca9-adc7-910665aae8c2"
+        "id": "53c7702b-65ed-41f5-b70f-5da301de913f"
       }
     },
     {
@@ -1101,8 +1058,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 618.796875,
-          "y": 457.5
+          "x": 617.796875,
+          "y": 455.5
         }
       },
       "state": {
@@ -1273,7 +1230,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 50107
         },
         "filters": {
           "kind": "Filters",
@@ -1362,13 +1319,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f4df975f-6387-4793-b7e7-6a4a6c4553f1"
+        "id": "2e450b02-4ae7-4600-a54c-655a7ebb79b7"
       }
     },
     {
@@ -1558,7 +1515,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1621,13 +1578,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "7fc50e68-7766-490e-a3a0-8bd31114ad73"
+        "id": "8590139e-b10e-4eb3-8e69-df4f35fc5b06"
       }
     },
     {
@@ -1831,7 +1788,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1894,13 +1851,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "df80b33e-34b4-4ad7-9a15-f190bdfdbc56"
+        "id": "0cfa63bc-1bf6-4f1e-8e06-faabaf6dffd6"
       }
     },
     {
@@ -2098,7 +2055,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -2161,13 +2118,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "c1c7fe7e-8582-499b-93ec-19a8c1fafb4b"
+        "id": "9ecf9199-de01-4fc9-a2d6-a486897e9201"
       }
     },
     {
@@ -2351,7 +2308,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -2414,13 +2371,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "d3e34c6b-e23e-4df5-9bdc-0821528aa725"
+        "id": "7f21e6fb-d0ee-475e-b213-c4051bacab98"
       }
     },
     {
@@ -2638,7 +2595,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -2701,13 +2658,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "ebe32917-5420-4db6-b261-050d09ebdf08"
+        "id": "294878ae-9822-4235-ac89-ac7477fe29b5"
       }
     },
     {
@@ -2918,7 +2875,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -2935,12 +2892,12 @@
                   "stringValue": "20",
                   "factor": {
                     "kind": "Factor",
-                    "name": "ds3.sample",
+                    "name": "sample",
                     "type": "double"
                   }
                 }
               ],
-              "name": "ds3.sample"
+              "name": "sample"
             }
           ]
         },
@@ -3000,13 +2957,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "af968f4b-1e15-4ae0-80af-bdee29b737ef"
+        "id": "bbe89c9d-68e5-48f4-8a38-71d3a3f4826c"
       }
     },
     {
@@ -3208,7 +3165,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -3271,13 +3228,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4965e66c-a08f-4459-8549-0f4391b1bfde"
+        "id": "03920967-d771-4e74-81b0-517621a0d8f9"
       }
     },
     {
@@ -3461,7 +3418,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -3575,13 +3532,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "7c6ad21f-18f6-4c6f-94b3-72b1dcd76005"
+        "id": "67b0b231-b055-4bdc-a3f0-803ec46cd16d"
       }
     },
     {
@@ -3792,7 +3749,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -3855,13 +3812,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "1ecc41c4-b836-4834-a3c4-128e141d8545"
+        "id": "0eb1c860-e982-4c39-b17a-7fd58bd93a67"
       }
     },
     {
@@ -4063,7 +4020,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -4142,13 +4099,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "315cfa2f-540b-4fa9-bb30-71c19068c45b"
+        "id": "ca9331b2-0f15-44cb-97fd-21ea0d84c779"
       }
     },
     {
@@ -4181,8 +4138,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 207.3184765625001,
-          "y": 620.5
+          "x": 201.3184765625001,
+          "y": 629.5
         }
       },
       "state": {
@@ -4371,7 +4328,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 3
         },
         "filters": {
           "kind": "Filters",
@@ -4455,13 +4412,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "386315a6-7b41-4423-873d-e2f28f782b90"
+        "id": "4216ed36-52f5-4002-8ef5-879d33543893"
       }
     },
     {
@@ -4672,7 +4629,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -4735,13 +4692,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "0f1a7738-a868-4428-8eed-9a47f1717b23"
+        "id": "a3820f00-9db1-4168-9946-511a2c45f8d0"
       }
     },
     {
@@ -4943,7 +4900,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -5006,13 +4963,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5fdd34a2-b2fc-4202-b108-e18198dcd885"
+        "id": "74a992fd-de04-4917-979a-7dab2d4c2a93"
       }
     },
     {
@@ -5228,7 +5185,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -5307,13 +5264,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "45ba889b-863b-452b-95ec-d07d57b2382b"
+        "id": "8c7a794e-34ba-4e85-8f0f-b442bf59c89f"
       }
     },
     {
@@ -5346,8 +5303,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 9.826289062499995,
-          "y": 623.5
+          "x": -1.1737109375000045,
+          "y": 629.5
         }
       },
       "state": {
@@ -5536,7 +5493,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 90
         },
         "filters": {
           "kind": "Filters",
@@ -5634,19 +5591,62 @@
               }
             }
           ],
-          "nRows": 0
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "9c91c79f-2f62-4547-beb7-284ff4ec493c"
+        "id": "d060b744-1655-49de-9f9e-36a1074b8d7d"
+      }
+    },
+    {
+      "kind": "TableStep",
+      "id": "95501017-2717-418d-88cd-d5c39887de71",
+      "groupId": "",
+      "name": "main data set",
+      "inputs": [],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "95501017-2717-418d-88cd-d5c39887de71-o-0",
+          "linkType": "relation",
+          "name": "table"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 98.88986206054688,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 514.5050000000001,
+          "y": 189.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "model": {
+        "kind": "TableStepModel",
+        "relation": {
+          "kind": "UnionRelation",
+          "id": "9fd3a0ce-705e-42d8-9db8-d79e8aa8fd40",
+          "relations": []
+        }
       }
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": 256.0,
-    "y": -84.0
+    "x": 289.0,
+    "y": -90.0
   }
 }
